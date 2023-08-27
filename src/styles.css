@@ -1,0 +1,47 @@
+p {
+  margin-top: 1em;
+}
+
+.margin-right{
+  margin-right: 3vh;
+}
+
+.counter {
+    text-align: center;
+    font-size: 1.1em;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.counter-p {
+  font-size: 24px;
+  color: #000000;
+  line-height: 34px;
+}
+
+.fade-in {
+  animation: fadeIn ease 4s;
+}
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+.rastreio{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); 
+  z-index: 1; 
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.rastreio-info{
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 1rem;
+}
