@@ -3,7 +3,7 @@ import { usarContexto } from "../components/Contexto";
 import { useNavigate } from "react-router-dom";
 
 function Admin() {
-    const { setNomeUsuario, setNomePessoa, setMsgLogout } = usarContexto();
+    const { setNomeUsuario, setNomePessoa, setMsgLogout, setRastreio } = usarContexto();
     const navigate = useNavigate();
 
     async function criarPedido() {
