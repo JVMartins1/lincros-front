@@ -14,7 +14,7 @@ Frontend (React)
 		React Router		
 
 
-	Projeto criado utilizando vite, 6 telas e 9 componentes, todas as telas possuem o componente Navbar em comum para possibilitar a navegação pelo aplicativo.
+	Projeto criado utilizando vite, 6 telas e 11 componentes, todas as telas possuem o componente Navbar em comum para possibilitar a navegação pelo aplicativo.
 
 		
 	Telas
